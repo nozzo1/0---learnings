@@ -28,5 +28,5 @@ Use and abuse it as you wish.
 
 ## To Do
 
-(1) add lat lon as variable and use paste to concat the URL as the current method is messy
-(2) Shiny the code so you can enter a postcode and let the R script get on with it
+* add lat lon as variable and use paste to concat the URL as the current method is messy
+* Shiny the code so you can enter a postcode and let the R script get on with it
