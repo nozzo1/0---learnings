@@ -6,9 +6,12 @@ require(ggplot2); require(sp);
 # baseurl <- "https://data.police.uk/api/crimes-street/all-crime?lat=52.091983&lng=-0.835741&date=" #Castlethorpe
 # mappostcode <- "mk19 7hf" #castlethorpe
 # maptitle <- "Castlethorpe"
-baseurl <- "https://data.police.uk/api/crimes-street/all-crime?lat=52.0417200&lng=-0.7558300&date=" #Milton Keynes
-mappostcode <- "mk9 3nb" #milton keynes
+# baseurl <- "https://data.police.uk/api/crimes-street/all-crime?lat=52.0417200&lng=-0.7558300&date=" #Milton Keynes
+# mappostcode <- "mk9 3nb" #milton keynes
 # maptitle <- "Milton Keynes"
+baseurl <- "https://data.police.uk/api/crimes-street/all-crime?lat=51.8199&lng=-0.824&date=" #Aylesbury Honda
+mappostcode <- "hp19 8ed" #Aylesbury
+maptitle <- "Aylesbury"
 
 baseyear  <- "2016"
 poldatapages <- list()
