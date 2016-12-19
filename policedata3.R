@@ -1,6 +1,9 @@
+# Crime Mapping
+# Used as a learning tool (c) Chris Norris and free to use by anyone
+# Police Data from public sources
 install.packages(c("mapproj", "maps", "jsonlite", "ggmap", "colorspace","Rcpp"))
 library(mapproj);library( maps);library(jsonlite);library(ggmap);library(colorspace)
-require(ggplot2); require(sp);
+require(ggplot2); require(sp); ## This needs tidying up.
 
 # Setup
 baseurl <- "https://data.police.uk/api/crimes-street/all-crime?lat=52.091983&lng=-0.835741&date=" #Castlethorpe
